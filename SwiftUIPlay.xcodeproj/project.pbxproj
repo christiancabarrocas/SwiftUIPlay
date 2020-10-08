@@ -16,6 +16,11 @@
 		DE7EF3BE252F144D00D6A900 /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF3BD252F144D00D6A900 /* Datasource.swift */; };
 		DE7EF3C3252F147100D6A900 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF3C2252F147100D6A900 /* User.swift */; };
 		DE7EF3C8252F174300D6A900 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF3C7252F174300D6A900 /* RemoteImage.swift */; };
+		DE7EF3D4252F2D2100D6A900 /* UserRollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF3D3252F2D2100D6A900 /* UserRollerView.swift */; };
+		DE7EF3D9252F2D4A00D6A900 /* CustomTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF3D8252F2D4A00D6A900 /* CustomTitle.swift */; };
+		DE7EF3DE252F2D7500D6A900 /* UsersRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF3DD252F2D7500D6A900 /* UsersRoller.swift */; };
+		DE7EF3E3252F2DCF00D6A900 /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF3E2252F2DCF00D6A900 /* UserCellView.swift */; };
+		DE7EF3EB252F2E1600D6A900 /* UsersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF3EA252F2E1600D6A900 /* UsersList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		DE7EF3BD252F144D00D6A900 /* Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
 		DE7EF3C2252F147100D6A900 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DE7EF3C7252F174300D6A900 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		DE7EF3D3252F2D2100D6A900 /* UserRollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRollerView.swift; sourceTree = "<group>"; };
+		DE7EF3D8252F2D4A00D6A900 /* CustomTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTitle.swift; sourceTree = "<group>"; };
+		DE7EF3DD252F2D7500D6A900 /* UsersRoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRoller.swift; sourceTree = "<group>"; };
+		DE7EF3E2252F2DCF00D6A900 /* UserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
+		DE7EF3EA252F2E1600D6A900 /* UsersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				DE7EF3C7252F174300D6A900 /* RemoteImage.swift */,
 				DE7EF3BD252F144D00D6A900 /* Datasource.swift */,
 				DE7EF3C2252F147100D6A900 /* User.swift */,
+				DE7EF3DD252F2D7500D6A900 /* UsersRoller.swift */,
+				DE7EF3D3252F2D2100D6A900 /* UserRollerView.swift */,
+				DE7EF3E2252F2DCF00D6A900 /* UserCellView.swift */,
+				DE7EF3EA252F2E1600D6A900 /* UsersList.swift */,
+				DE7EF3D8252F2D4A00D6A900 /* CustomTitle.swift */,
 				DE7EF393252F0D7700D6A900 /* Assets.xcassets */,
 				DE7EF398252F0D7700D6A900 /* Info.plist */,
 				DE7EF395252F0D7700D6A900 /* Preview Content */,
@@ -269,9 +284,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE7EF3C3252F147100D6A900 /* User.swift in Sources */,
+				DE7EF3D4252F2D2100D6A900 /* UserRollerView.swift in Sources */,
 				DE7EF3BE252F144D00D6A900 /* Datasource.swift in Sources */,
+				DE7EF3D9252F2D4A00D6A900 /* CustomTitle.swift in Sources */,
+				DE7EF3EB252F2E1600D6A900 /* UsersList.swift in Sources */,
 				DE7EF392252F0D7500D6A900 /* ContentView.swift in Sources */,
 				DE7EF3C8252F174300D6A900 /* RemoteImage.swift in Sources */,
+				DE7EF3DE252F2D7500D6A900 /* UsersRoller.swift in Sources */,
+				DE7EF3E3252F2DCF00D6A900 /* UserCellView.swift in Sources */,
 				DE7EF390252F0D7500D6A900 /* SwiftUIPlayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
