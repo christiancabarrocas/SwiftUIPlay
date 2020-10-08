@@ -13,12 +13,19 @@ struct UsersList: View {
     let users = Datasource.load()
 
     var body: some View {
-        ScrollView(.vertical, showsIndicators: false, content: {
-            VStack(alignment: .leading, spacing: 0, content: {
-                ForEach(users, id: \.self) { user in
-                    UserView(user: user)
+        List {
+            Section {
+                ForEach(users) { user in
+                    UserCellView(user: user)
+                    Spacer().frame(height: 1)
                 }
-            })
-        })
+            }
+        }
+    }
+}
+
+struct UsersList_Previews: PreviewProvider {
+    static var previews: some View {
+        UsersList()
     }
 }

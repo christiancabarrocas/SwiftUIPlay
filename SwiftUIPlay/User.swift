@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct User: Hashable {
+struct User: Hashable, Identifiable {
+    var id = UUID()
     let name: String
     let url: URL!
+    let status: String
 }

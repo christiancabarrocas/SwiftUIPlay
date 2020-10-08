@@ -19,3 +19,10 @@ struct CustomTitle: View {
             .foregroundColor(.white)
     }
 }
+
+struct CustomTitle_Previews: PreviewProvider {
+    static var previews: some View {
+        CustomTitle(text: "Template Text")
+            .background(Color.red)
+    }
+}

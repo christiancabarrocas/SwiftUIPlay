@@ -21,6 +21,8 @@ struct ContentView: View {
                 .frame(height: 30)
             CustomTitle(text: "Friends")
             Spacer()
+                .frame(height: 30)
+            UsersList()
         })
 
         .background(Color.init(.lightGray))

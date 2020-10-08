@@ -23,3 +23,10 @@ struct UsersRoller: View {
         .background(Color.init(.white).opacity(0.5))
     }
 }
+
+struct UsersRoller_Previews: PreviewProvider {
+    static var previews: some View {
+        UsersRoller()
+            .background(Color.red)
+    }
+}
