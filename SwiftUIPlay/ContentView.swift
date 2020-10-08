@@ -12,6 +12,7 @@ struct ContentView: View {
     let users = Datasource.load()
 
     var body: some View {
+
         VStack(alignment: .leading, spacing: 10, content: {
             Spacer()
                 .frame(height: 30)
@@ -20,8 +21,6 @@ struct ContentView: View {
             Spacer()
                 .frame(height: 30)
             CustomTitle(text: "Friends")
-            Spacer()
-                .frame(height: 30)
             UsersList()
         })
 
@@ -35,3 +34,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+//NavigationLink(destination: ResultView(choice: "Heads")) {
+//                    Text("Choose Heads")
+//                }

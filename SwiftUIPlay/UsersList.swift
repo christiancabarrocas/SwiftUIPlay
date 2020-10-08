@@ -13,13 +13,14 @@ struct UsersList: View {
     let users = Datasource.load()
 
     var body: some View {
-        List {
-            Section {
+
+        ScrollView {
+            LazyVStack(alignment: .leading, spacing: 10, pinnedViews: [], content: {
                 ForEach(users) { user in
                     UserCellView(user: user)
                     Spacer().frame(height: 1)
                 }
-            }
+            })
         }
     }
 }

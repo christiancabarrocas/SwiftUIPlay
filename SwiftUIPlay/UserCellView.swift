@@ -16,8 +16,7 @@ struct UserCellView: View {
     var body: some View {
         HStack(alignment: .center, spacing: 0, content: {
             ImageViewContainer(imageURL: user.url)
-                .padding()
-                .scaleEffect(1.2)
+                .scaleEffect(0.8)
             VStack(alignment: .leading, spacing: 0, content: {
                 Text(user.name)
                     .font(.system(size: 32, weight: .regular, design: .rounded))
@@ -34,8 +33,8 @@ struct UserCellView: View {
             }.padding()
         })
         .frame(height: 80)
-        .background(Color.init(UIColor.lightGray))
-        .border(Color.white, width: 2)
+        .background(Color.init(UIColor.lightGray).opacity(0.8))
+        .border(Color.white.opacity(0.6), width: 1)
     }
 }
 
