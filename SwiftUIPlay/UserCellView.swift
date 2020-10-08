@@ -33,8 +33,7 @@ struct UserCellView: View {
             }.padding()
         })
         .frame(height: 80)
-        .background(Color.init(UIColor.lightGray).opacity(0.8))
-        .border(Color.white.opacity(0.6), width: 1)
+        .background(Color.init(UIColor.white).opacity(0.5))
     }
 }
 
