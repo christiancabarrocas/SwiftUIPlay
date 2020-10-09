@@ -12,8 +12,10 @@ import Combine
 struct ImageViewContainer: View {
     @ObservedObject var remoteImageURL: RemoteImageURL
 
-    init(imageURL: URL) {
+    var size: CGFloat
+    init(imageURL: URL, size: CGFloat = 75) {
         remoteImageURL = RemoteImageURL(imageURL: imageURL)
+        self.size = size
     }
 
     var body: some View {
@@ -22,11 +24,11 @@ struct ImageViewContainer: View {
         Image(uiImage: image)
             .resizable()
             .aspectRatio(contentMode: .fill)
-            .frame(width: 75, height: 75, alignment: .center)
+            .frame(width: size, height: size, alignment: .center)
             .clipShape(Circle())
                         .overlay(
                             Circle().stroke(Color.white, lineWidth: 2))
-                        .shadow(radius: 10)
+                        .shadow(radius: 5, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: 10)
     }
 }
 

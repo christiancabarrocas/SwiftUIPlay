@@ -14,7 +14,7 @@ struct CustomTitle: View {
 
     var body: some View {
         Text(text)
-            .padding()
+            .padding(.leading, 20)
             .font(.system(size: 36, weight: .semibold, design: .rounded))
             .foregroundColor(.white)
     }

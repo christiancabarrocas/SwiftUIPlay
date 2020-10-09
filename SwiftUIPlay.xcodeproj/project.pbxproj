@@ -21,6 +21,8 @@
 		DE7EF3DE252F2D7500D6A900 /* UsersRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF3DD252F2D7500D6A900 /* UsersRoller.swift */; };
 		DE7EF3E3252F2DCF00D6A900 /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF3E2252F2DCF00D6A900 /* UserCellView.swift */; };
 		DE7EF3EB252F2E1600D6A900 /* UsersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF3EA252F2E1600D6A900 /* UsersList.swift */; };
+		DE7EF3F325303EC900D6A900 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF3F225303EC900D6A900 /* RoundedButton.swift */; };
+		DE7EF3F825304BDE00D6A900 /* UserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF3F725304BDE00D6A900 /* UserName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		DE7EF3DD252F2D7500D6A900 /* UsersRoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRoller.swift; sourceTree = "<group>"; };
 		DE7EF3E2252F2DCF00D6A900 /* UserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
 		DE7EF3EA252F2E1600D6A900 /* UsersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersList.swift; sourceTree = "<group>"; };
+		DE7EF3F225303EC900D6A900 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		DE7EF3F725304BDE00D6A900 /* UserName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,10 +121,12 @@
 				DE7EF3BD252F144D00D6A900 /* Datasource.swift */,
 				DE7EF3C2252F147100D6A900 /* User.swift */,
 				DE7EF3DD252F2D7500D6A900 /* UsersRoller.swift */,
+				DE7EF3F725304BDE00D6A900 /* UserName.swift */,
 				DE7EF3D3252F2D2100D6A900 /* UserRollerView.swift */,
 				DE7EF3E2252F2DCF00D6A900 /* UserCellView.swift */,
 				DE7EF3EA252F2E1600D6A900 /* UsersList.swift */,
 				DE7EF3D8252F2D4A00D6A900 /* CustomTitle.swift */,
+				DE7EF3F225303EC900D6A900 /* RoundedButton.swift */,
 				DE7EF393252F0D7700D6A900 /* Assets.xcassets */,
 				DE7EF398252F0D7700D6A900 /* Info.plist */,
 				DE7EF395252F0D7700D6A900 /* Preview Content */,
@@ -288,7 +294,9 @@
 				DE7EF3BE252F144D00D6A900 /* Datasource.swift in Sources */,
 				DE7EF3D9252F2D4A00D6A900 /* CustomTitle.swift in Sources */,
 				DE7EF3EB252F2E1600D6A900 /* UsersList.swift in Sources */,
+				DE7EF3F825304BDE00D6A900 /* UserName.swift in Sources */,
 				DE7EF392252F0D7500D6A900 /* ContentView.swift in Sources */,
+				DE7EF3F325303EC900D6A900 /* RoundedButton.swift in Sources */,
 				DE7EF3C8252F174300D6A900 /* RemoteImage.swift in Sources */,
 				DE7EF3DE252F2D7500D6A900 /* UsersRoller.swift in Sources */,
 				DE7EF3E3252F2DCF00D6A900 /* UserCellView.swift in Sources */,

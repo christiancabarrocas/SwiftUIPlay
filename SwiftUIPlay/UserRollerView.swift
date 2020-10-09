@@ -12,15 +12,10 @@ struct UserRollerView: View {
     var user: User
     var body: some View {
         VStack(alignment: .center, spacing: 5, content: {
-
             ImageViewContainer(imageURL: user.url)
-                .frame(width: 75, height: 75, alignment: .center)
-            Text(user.name)
-                .bold()
-                .font(.system(size: 18, weight: .light, design: .rounded))
-                .foregroundColor(.white)
+            UserName(user: user)
         })
-        .padding(.all, 15)
+        .padding(.all, 10)
     }
 }
 
